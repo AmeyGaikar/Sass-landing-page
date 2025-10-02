@@ -61,7 +61,7 @@ export default function Hero() {
     return (
         <section
             className="py-24 overflow-x-clip"
-            style={{ cursor: `url(${cursorYouImage.src}), auto`}}
+            style={{ cursor: `url(${cursorYouImage.src}), auto` }}
         >
             <div className="container relative">
                 <motion.div
