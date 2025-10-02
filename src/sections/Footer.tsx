@@ -18,12 +18,11 @@ export default function Footer() {
                     <div>
                         <nav className="flexg gap-6">
                             {footerLinks.map((link) => (
-                                <a
+                                <a key={link.label}
                                     href={link.href}
                                     className="text-white/50 text-sm"
                                 >
-                                    {" "}
-                                    {link.label}{" "}
+                                    {link.label}
                                 </a>
                             ))}
                         </nav>
