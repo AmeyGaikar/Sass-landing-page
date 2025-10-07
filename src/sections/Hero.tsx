@@ -20,7 +20,7 @@ export default function Hero() {
 
     useEffect(() => {
         leftDesignAnimate([
-            [leftDesignScope.current, { opacity: [0, 1] }, { duration: 0.5 }],
+            [leftDesignScope.current, { opacity: [1] }, { duration: 0.5 }],
             [leftDesignScope.current, { y: 0, x: 0 }, { duration: 0.5 }],
         ]);
 

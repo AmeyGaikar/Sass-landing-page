@@ -26,7 +26,7 @@ export default function Navbar() {
                                 <Image
                                     src={logoImage}
                                     alt="Layers logo"
-                                    className="h-9 md:h-auto w-auto "
+                                    className="h-9 md:h-auto w-auto"
                                 />
                             </div>
 
@@ -132,9 +132,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </section>
-            <div className="pb-[86px] md:pb-[98px] lg:pb-[130px]">
-
-            </div>
+            <div className="pb-[86px] md:pb-[98px] lg:pb-[130px]"></div>
         </>
     );
 }

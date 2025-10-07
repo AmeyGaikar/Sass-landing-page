@@ -20,7 +20,7 @@ export default function Introduction() {
     //     console.log("latest", latest)
     // );
 
-    const [currentWord, SetCurrentWord] = useState(0);
+    const [currentWord, SetCurrentWord] = useState(0); 
     const wordIndex = useTransform(scrollYProgress, [0, 1], [0, words.length]);
     console.log(currentWord);
 
@@ -29,6 +29,8 @@ export default function Introduction() {
             SetCurrentWord(latest);
         });
     }, [wordIndex]);
+
+    
 
     return (
         <section className="py-28 lg:py-40">
