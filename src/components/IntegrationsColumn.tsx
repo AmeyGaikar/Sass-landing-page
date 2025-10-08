@@ -5,7 +5,6 @@ import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import { motion } from "framer-motion";
 import { Fragment } from "react";
-import { reverse } from "dns";
 
 export default function IntegrationColumn(Props: {
     integrations: IntegrationsType;
