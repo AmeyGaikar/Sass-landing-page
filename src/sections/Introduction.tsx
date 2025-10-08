@@ -1,7 +1,7 @@
 "use client";
 
 import Tag from "@/components/tag";
-import { useMotionValueEvent, useScroll, useTransform } from "framer-motion";
+import { useScroll, useTransform } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -53,7 +53,7 @@ export default function Introduction() {
                             ))}
                         </span>
                         <span className="text-lime-400 block">
-                            Thats's why we built layers
+                            Thats&apos;s why we built layers
                         </span>
                     </div>
                 </div>

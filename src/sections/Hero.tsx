@@ -18,6 +18,7 @@ export default function Hero() {
 
     const [rightPointerScope, rightPointerAnimate] = useAnimate();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         leftDesignAnimate([
             [leftDesignScope.current, { opacity: [1] }, { duration: 0.5 }],
@@ -56,7 +57,7 @@ export default function Hero() {
                 { duration: 0.5 },
             ],
         ]);
-    }, []);
+    });
 
     return (
         <section
@@ -115,7 +116,7 @@ export default function Hero() {
                     Impactful design, created effortlessly
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
-                    Designs tools shouldn't slow you down. Layers combines
+                    Designs tools shouldn&apos;t slow you down. Layers combines
                     powerful features with an intuitive interface interface that
                     keeps you on your creative flow.
                 </p>
